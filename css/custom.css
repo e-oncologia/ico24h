@@ -171,7 +171,11 @@ ul {
   list-style: none;
 }
 
-
+img {
+	-webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", Arial, sans-serif;
@@ -221,7 +225,7 @@ p {
   justify-content: center;
   position: relative;
   width: 80%;
-  max-width: 300px;
+  max-width: 600px;
   margin: 0 auto;
 }
 .flexible {
@@ -293,7 +297,30 @@ h5 {
 border-radius: 15px;
 }
 
+.marcoTexto{
+	margin: 10px 10px 40px 10px;
+	padding: 1em;
+	-webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
 
+.logo {
+	-webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  opacity: 0.5;
+  -webkit-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+.logo:hover {
+	-webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  opacity: 1;
+}
 
 .pregunta {
   margin-top: 20px;
@@ -330,6 +357,7 @@ border-radius: 15px;
   -ms-user-select: none;
   user-select: none;
 }
+
 
 .flota{
   display: block;

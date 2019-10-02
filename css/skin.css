@@ -372,6 +372,7 @@ ul li .label i {
 }
 
 .marcoTexto {
+  border: 2px solid #ffc000;
   background: #fff;
   -webkit-transition: 0.2s ease-in-out;
   -moz-transition: 0.2s ease-in-out;
@@ -381,6 +382,11 @@ ul li .label i {
 
 .marcoTexto:hover {
   background: #ffc000;
+  color: #fff;
+}
+.marcoTexto:hover .naranja,
+.marcoTexto:hover i {
+  color: #fff;
 }
 
 .intermitente:hover h2,
