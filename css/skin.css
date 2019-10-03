@@ -12,6 +12,9 @@ h1, h2, h3, h4, h5, h6, p, i, a {
 a:hover {
   color: #fff;
 }
+.parrafo {
+  color: #6b6b6b;
+}
 .close-menu-link i {
   color: #e0e0e0;
   -webkit-transition: 0.2s ease-in-out;
@@ -234,7 +237,7 @@ a:hover {
 
 .inner-box-wrapper {
   background: #fff;
-  border: 2px solid #ffe19a;
+  border: 2px solid #ffc000;
 }
 
 .inner-box-wrapper:hover {
@@ -310,8 +313,8 @@ ul li .label i {
   background: #cecece;
 }
 
-.inner-content .content .button-wrapper a > .front > .value > span,
-.inner-content .content .button-wrapper a > .back > .value > span {
+.inner-content .content .button-wrapper a > .front > .parrafo > span,
+.inner-content .content .button-wrapper a > .back > .parrafo > span {
   color: #ffc000;
 }
 
@@ -350,8 +353,8 @@ ul li .label i {
   background: #cecece;
 }
 
-.inner-content .content .button-wrapper a > .front > .value > span,
-.inner-content .content .button-wrapper a > .back > .value > span {
+.inner-content .content .button-wrapper a > .front > .parrafo > span,
+.inner-content .content .button-wrapper a > .back > .parrafo > span {
   color: #ffc000;
 }
 

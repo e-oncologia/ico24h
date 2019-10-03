@@ -294,12 +294,12 @@ h5 {
 }
 
 .ico-tabla tr {
-border-radius: 15px;
+  border-radius: 15px;
 }
 
 .marcoTexto{
-	margin: 10px 10px 40px 10px;
-	padding: 1em;
+	margin: 10px;
+	padding: 10px;
 	-webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
@@ -1167,7 +1167,7 @@ ul li .label i {
   margin-right: 13px;
 }
 
-ul li .value {
+ul li .parrafo {
   word-wrap: break-word;
   -ms-word-break: break-all;
   word-break: break-all;
