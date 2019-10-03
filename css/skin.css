@@ -220,7 +220,8 @@ a:hover {
 
 
 .sombra {
-  text-shadow: 1px 1px 15px rgba(255, 255, 255, 0.7), 0 0 1em rgba(255, 255, 255, 0.7), 0 0 .2em rgba(255, 255, 255, 0.7);
+  text-shadow: 1px 1px 35px rgba(255, 255, 255, 0.6), 0 0 1em rgba(255, 255, 255, 0.6), 0 0 .2em rgba(255, 255, 255, 0.6);
+  color: #4c4c4c;
 }
 
 .hanging i,
