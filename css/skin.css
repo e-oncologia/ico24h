@@ -219,7 +219,11 @@ a:hover {
 }
 
 
-
+.sombra {
+  -webkit-text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.6);
+  -moz-text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.6);
+}
 
 .hanging i,
 .hanging span.uno {
