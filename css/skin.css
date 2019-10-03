@@ -220,9 +220,9 @@ a:hover {
 
 
 .sombra {
-  -webkit-text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.6);
-  -moz-text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.6);
-  text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.6);
+  -webkit-text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
+  -moz-text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
+  text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
 }
 
 .hanging i,
@@ -246,12 +246,16 @@ a:hover {
 }
 
 .inner-box-wrapper {
+  -moz-box-shadow:    inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #000000;
+  box-shadow:         inset 0 0 0px #000000;
   background: #fff;
-  border: 2px solid #ffc000;
 }
 
 .inner-box-wrapper:hover {
-  border: 2px solid #ffc000;
+  -moz-box-shadow:    inset 0 0 50px #ffc000;
+  -webkit-box-shadow: inset 0 0 50px #ffc000;
+  box-shadow:         inset 0 0 50px #ffc000;
   background: #ffc000;
 }
 .inner-box-wrapper:hover h5,
@@ -391,9 +395,15 @@ ul li .label i {
   -moz-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
+  -moz-box-shadow:    inset 0 0 10px #ffc000;
+  -webkit-box-shadow: inset 0 0 10px #ffc000;
+  box-shadow:         inset 0 0 0px #ffc000;
 }
 
 .marcoTexto:hover {
+  -moz-box-shadow:    inset 0 0 50px #ffc000;
+  -webkit-box-shadow: inset 0 0 50px #ffc000;
+  box-shadow:         inset 0 0 50px #ffc000;
   background: #ffc000;
   color: #fff;
 }
@@ -401,6 +411,11 @@ ul li .label i {
 .marcoTexto:hover i {
   color: #fff;
 }
+
+
+
+
+
 
 .intermitente:hover h2,
 .intermitente:hover i {
