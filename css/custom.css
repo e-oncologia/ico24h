@@ -1131,6 +1131,9 @@ div.abajo {
 /*=================================================================*/
 
 
+ul {
+  font-size: 16px;
+}
 
 .contenidocaso ul li {
   margin-bottom: 16px;
