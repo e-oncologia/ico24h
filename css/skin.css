@@ -220,9 +220,7 @@ a:hover {
 
 
 .sombra {
-  -webkit-text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
-  -moz-text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
-  text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
+  text-shadow: 1px 1px 15px rgba(255, 255, 255, 0.7), 0 0 1em rgba(255, 255, 255, 0.7), 0 0 .2em rgba(255, 255, 255, 0.7);
 }
 
 .hanging i,
@@ -234,6 +232,9 @@ a:hover {
 }
 .naranja {
   color: #ffc000;
+}
+.celeste {
+  color: #09c3dc;
 }
 .blanco {
   color: #fff;
@@ -307,10 +308,7 @@ ul li .label i {
 }
 
 .ico-tabla th {
-	background-color: #ffc000;
-	-webkit-box-shadow: inset -260px 30px 80px -30px rgba(255,240,0,0.3);
-  -moz-box-shadow: inset -260px 30px 80px -30px rgba(255,240,0,0.3);
-  box-shadow: inset -50px 50px 150px -10px rgba(255,240,0,0.3);
+	background-color: #09c3dc;
 }
 
 .tabla-borde {
@@ -411,11 +409,6 @@ ul li .label i {
 .marcoTexto:hover i {
   color: #fff;
 }
-
-
-
-
-
 
 .intermitente:hover h2,
 .intermitente:hover i {
