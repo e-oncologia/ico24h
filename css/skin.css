@@ -6,7 +6,15 @@ naranja: #ffc000
 texto: #6b6b6b
 gris claro: #e0e0e0
 ============================================================== */
-h1, h2, h3, h4, h5, h6, p, i, a {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+i,
+a {
   color: #6b6b6b;
 }
 a:hover {
@@ -25,7 +33,7 @@ a:hover {
 .close-menu-link i:hover {
   color: #fff;
 }
-}
+
 #pre-load {
   background: #cecece;
 }
@@ -178,7 +186,7 @@ a:hover {
     rgb(255, 255, 255) 0%,
     rgb(248, 229, 193) 100%
   );
- 
+
   background: -webkit-linear-gradient(
     15deg,
     rgb(255, 255, 255) 0%,
@@ -206,7 +214,6 @@ a:hover {
   background: #cecece;
 }
 
-
 .main-content .hanging {
   background: #fff;
 }
@@ -218,9 +225,9 @@ a:hover {
   background: #cecece;
 }
 
-
 .sombra {
-  text-shadow: 1px 1px 35px rgba(255, 255, 255, 0.6), 0 0 1em rgba(255, 255, 255, 0.6), 0 0 .2em rgba(255, 255, 255, 0.6);
+  text-shadow: 1px 1px 35px rgba(255, 255, 255, 0.6),
+    0 0 1em rgba(255, 255, 255, 0.6), 0 0 0.2em rgba(255, 255, 255, 0.6);
   color: #4c4c4c;
 }
 
@@ -237,6 +244,10 @@ a:hover {
 .celeste {
   color: #09c3dc;
 }
+.negro {
+  color: #000000;
+}
+
 .blanco {
   color: #fff;
 }
@@ -248,16 +259,16 @@ a:hover {
 }
 
 .inner-box-wrapper {
-  -moz-box-shadow:    inset 0 0 10px #000000;
+  -moz-box-shadow: inset 0 0 10px #000000;
   -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow:         inset 0 0 0px #000000;
+  box-shadow: inset 0 0 0px #000000;
   background: #fff;
 }
 
 .inner-box-wrapper:hover {
-  -moz-box-shadow:    inset 0 0 50px #ffc000;
+  -moz-box-shadow: inset 0 0 50px #ffc000;
   -webkit-box-shadow: inset 0 0 50px #ffc000;
-  box-shadow:         inset 0 0 50px #ffc000;
+  box-shadow: inset 0 0 50px #ffc000;
   background: #ffc000;
 }
 .inner-box-wrapper:hover h5,
@@ -304,23 +315,26 @@ ul li .label i {
   color: #6b6b6b;
 }
 
-.ico-tabla td, .ico-tabla tr {
+.ico-tabla td,
+.ico-tabla tr {
   border: 2px solid #fff;
 }
 
 .ico-tabla th {
-	background-color: #09c3dc;
+  background-color: #09c3dc;
 }
 
 .tabla-borde {
-  border-bottom: 1px solid #D3D3D3;
+  border-bottom: 1px solid #d3d3d3;
 }
 
-.ico-tabla tr:nth-child(even){background-color: #fff;}
+.ico-tabla tr:nth-child(even) {
+  background-color: #fff;
+}
 
-.ico-tabla tr:hover {background-color: #ddd;}
-
-
+.ico-tabla tr:hover {
+  background-color: #ddd;
+}
 
 .inner-content .content .button-wrapper a > .back {
   background: #cecece;
@@ -394,15 +408,15 @@ ul li .label i {
   -moz-transition: 0.2s ease-in-out;
   -o-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
-  -moz-box-shadow:    inset 0 0 10px #ffc000;
+  -moz-box-shadow: inset 0 0 10px #ffc000;
   -webkit-box-shadow: inset 0 0 10px #ffc000;
-  box-shadow:         inset 0 0 0px #ffc000;
+  box-shadow: inset 0 0 0px #ffc000;
 }
 
 .marcoTexto:hover {
-  -moz-box-shadow:    inset 0 0 50px #ffc000;
+  -moz-box-shadow: inset 0 0 50px #ffc000;
   -webkit-box-shadow: inset 0 0 50px #ffc000;
-  box-shadow:         inset 0 0 50px #ffc000;
+  box-shadow: inset 0 0 50px #ffc000;
   background: #ffc000;
   color: #fff;
 }
