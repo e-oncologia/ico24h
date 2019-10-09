@@ -234,6 +234,7 @@ p {
   max-width: 600px;
   margin: 0 auto;
 }
+
 .flexible {
   display: flex;
   justify-content: center;
@@ -390,11 +391,7 @@ p {
   mix-blend-mode: darken;
   padding: 15px;
 }
-.centrada {
-  display: flex;
-  justify-content: center;
-  margin: 50px auto;
-}
+
 .piefoto {
   text-align: center;
   font-style: italic;
