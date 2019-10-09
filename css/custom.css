@@ -247,7 +247,6 @@ p {
   display: flex;
   justify-content: center;
   position: relative;
-  width: 150px;
   height: auto;
   margin: 0 auto;
 }
@@ -296,7 +295,9 @@ p {
 
 .ico-tabla td,
 .ico-tabla th {
-  padding: 5px 5px 5px 10px;
+  padding: 0px 5px;
+  line-height: 1.4;
+
 }
 
 .ico-tabla tr {
@@ -1418,17 +1419,17 @@ ul li .parrafo {
 /*=================================================================*/
 @media (min-width: 1920px) {
   #wrapper {
-    padding: 25px 20%;
+    padding: 25px 15%;
   }
 }
 @media (max-width: 1920px) {
   #wrapper {
-    padding: 25px 18%;
+    padding: 25px 13%;
   }
 }
 @media (max-width: 1700px) {
   #wrapper {
-    padding: 25px 15%;
+    padding: 25px 11%;
   }
 }
 
