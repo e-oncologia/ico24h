@@ -209,12 +209,12 @@ h4 {
   padding-bottom: 0.8em;
 }
 h5 {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bold;
   font-size: 23px;
   line-height: 1.4em;
 }
 h6 {
-  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: bold;
   font-size: 20px;
   line-height: 1.4em;
 }
@@ -281,8 +281,8 @@ p {
 }
 
 .contenidocaso p {
-  line-height: 1.5;
-  padding: 10px;
+  line-height: 1.4;
+  padding: 0px 0px 0px 10px;
 }
 
 .negrita {
@@ -977,13 +977,7 @@ h4 {
   height: auto;
 }
 
-.main-content .inner-content .content h5,
-h4 {
-  margin: 0;
-  font-weight: 400;
-  line-height: 1;
-  position: relative;
-}
+
 
 /*=================================================================*/
 /* [ 3.1.2. Main Content - Home ]                                  */
@@ -1124,6 +1118,8 @@ ul {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  line-height: 1.4;
+
 }
 
 .contenidocaso ul li:last-child {
