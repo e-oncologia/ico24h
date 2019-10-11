@@ -24,11 +24,7 @@
     off: ""
   };
 
-  // Pre Load
-  metronal.preLoad = function(duration) {
-    $("#pre-load").fadeOut(parseInt(duration, 10));
-  };
-
+ 
   // Replace Viewport Height
   // Solves the issue about the viewport height on mobile devices as when the page loads
   metronal.replaceVHeight = function() {

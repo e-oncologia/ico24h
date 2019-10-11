@@ -521,113 +521,6 @@ img {
   opacity: 0;
 }
 
-/*=================================================================*/
-/* [ 2. Pre Load ]                                                 */
-/*=================================================================*/
-
-#pre-load {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 999999;
-}
-
-#pre-load .load-circle {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  -webkit-animation: rotate 1.2s infinite;
-  -moz-animation: rotate 1.2s infinite;
-  animation: rotate 1.2s infinite;
-  height: 50px;
-  width: 50px;
-}
-
-#pre-load .load-circle:before,
-#pre-load .load-circle:after {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  content: "";
-  display: block;
-  height: 20px;
-  width: 20px;
-}
-
-#pre-load .load-circle:before {
-  -webkit-animation: ball1 1.2s infinite;
-  -moz-animation: ball1 1.2s infinite;
-  animation: ball1 1.2s infinite;
-  margin-bottom: 10px;
-}
-
-#pre-load .load-circle:after {
-  -webkit-animation: ball2 1.2s infinite;
-  -moz-animation: ball2 1.2s infinite;
-  animation: ball2 1.2s infinite;
-}
-
-@-webkit-keyframes rotate {
-  0% {
-    -webkit-transform: rotate(0deg) scale(0.8);
-    -o-transform: rotate(0deg) scale(0.8);
-    transform: rotate(0deg) scale(0.8);
-  }
-  50% {
-    -webkit-transform: rotate(360deg) scale(1.2);
-    -o-transform: rotate(360deg) scale(1.2);
-    transform: rotate(360deg) scale(1.2);
-  }
-  100% {
-    -webkit-transform: rotate(720deg) scale(0.8);
-    -o-transform: rotate(720deg) scale(0.8);
-    transform: rotate(720deg) scale(0.8);
-  }
-}
-
-@-moz-keyframes rotate {
-  0% {
-    -moz-transform: rotate(0deg) scale(0.8);
-    transform: rotate(0deg) scale(0.8);
-  }
-  50% {
-    -moz-transform: rotate(360deg) scale(1.2);
-    transform: rotate(360deg) scale(1.2);
-  }
-  100% {
-    -moz-transform: rotate(720deg) scale(0.8);
-    transform: rotate(720deg) scale(0.8);
-  }
-}
-
-@keyframes rotate {
-  0% {
-    -webkit-transform: rotate(0deg) scale(0.8);
-    -moz-transform: rotate(0deg) scale(0.8);
-    -ms-transform: rotate(0deg) scale(0.8);
-    -o-transform: rotate(0deg) scale(0.8);
-    transform: rotate(0deg) scale(0.8);
-  }
-  50% {
-    -webkit-transform: rotate(360deg) scale(1.2);
-    -moz-transform: rotate(360deg) scale(1.2);
-    -ms-transform: rotate(360deg) scale(1.2);
-    -o-transform: rotate(360deg) scale(1.2);
-    transform: rotate(360deg) scale(1.2);
-  }
-  100% {
-    -webkit-transform: rotate(720deg) scale(0.8);
-    -moz-transform: rotate(720deg) scale(0.8);
-    -ms-transform: rotate(720deg) scale(0.8);
-    -o-transform: rotate(720deg) scale(0.8);
-    transform: rotate(720deg) scale(0.8);
-  }
-}
 
 /*=================================================================*/
 /* [ 3. Wrapper ]                                                  */
@@ -1145,6 +1038,7 @@ ul li .dash {
 
 ul li .label i {
   margin-right: 13px;
+  margin-left: 10px;
 }
 
 ul li .parrafo {
