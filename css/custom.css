@@ -372,6 +372,10 @@ p {
   user-select: none;
 }
 
+.sangria1 {
+  margin-left: 25px;
+}
+
 .flota {
   display: block;
   transition: 0.5s;
