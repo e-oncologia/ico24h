@@ -247,9 +247,17 @@ a:hover {
 .negro {
   color: #000000;
 }
-
+.grisoscuro {
+  color: #6b6b6b;
+}
 .blanco {
   color: #fff;
+}
+.gris {
+  opacity: 0.8;
+}
+.invisible {
+  opacity: 0;
 }
 
 .BGnaranja {
