@@ -369,6 +369,9 @@ p {
   user-select: none;
 }
 
+.sangria0 {
+  margin-left: 15px;
+}
 .sangria1 {
   margin-left: 25px;
 }
@@ -1220,7 +1223,6 @@ ul li .parrafo {
 
 .button-wrapper a {
   display: inline-block;
-  text-transform: capitalize;
   border-width: 1px;
   border-style: solid;
   margin-right: 10px;
@@ -1911,9 +1913,9 @@ ul li .parrafo {
 .tooltip .tooltiptext {
   visibility: hidden;
   position: absolute;
-  top: 5%;
-  left: -40px;
-  width: 170px;
+  top: 0%;
+  left: -100px;
+  width: 400px;
   padding: 5px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -1924,7 +1926,7 @@ ul li .parrafo {
   transition: 0.4s ease-in-out;
   z-index: 999998;
   position: absolute;
-  z-index: 1;
+  text-align: left;
 }
 .tooltip:hover .tooltiptext {
   visibility: visible;
