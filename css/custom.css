@@ -296,7 +296,6 @@ p {
 .ico-tabla th {
   padding: 0px 5px;
   line-height: 1.4;
-
 }
 
 .ico-tabla tr {
@@ -524,7 +523,6 @@ img {
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
 }
-
 
 /*=================================================================*/
 /* [ 3. Wrapper ]                                                  */
@@ -873,8 +871,6 @@ h4 {
   height: auto;
 }
 
-
-
 /*=================================================================*/
 /* [ 3.1.2. Main Content - Home ]                                  */
 /*=================================================================*/
@@ -1015,7 +1011,6 @@ ul {
   display: -ms-flexbox;
   display: flex;
   line-height: 1.4;
-
 }
 
 .contenidocaso ul li:last-child {
